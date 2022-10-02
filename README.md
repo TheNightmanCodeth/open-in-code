@@ -54,5 +54,7 @@ Pull requests and issues are always welcome. If you run into a bug, open an issu
 If you find this extension useful and are feeling generous cosider buying me a coffee!
 
 Venmo: @j_diggity
+
 Cash App: $JADiggity
+
 ETH (Ethereum network only!!!): 0x0d8B0B097B77F262D110003E9d2c030cd26Da95F
