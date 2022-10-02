@@ -6,7 +6,9 @@ This extension is by no way endorsed by Microsoft or the Visual Studio Code team
 
 ## Installing
 
-🚧 WIP 🚧
+Firefox: https://addons.mozilla.org/en-US/firefox/addon/open-in-visual-studio-code/
+Chrome: Download the latest release [here](https://github.com/TheNightmanCodeth/open-in-code/releases/latest)
+Safari: Hang tight 🫡
 
 ## Building & Installing From Source
 
