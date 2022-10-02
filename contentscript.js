@@ -1,4 +1,7 @@
 (() => {
+    if (window.hasRunContentScriptOnce === true) return;
+    window.hasRunContentScriptOnce = true;
+    
     let ghCodeDropdown = getDropUL();
     ghCodeDropdown.appendChild(openInCodeElement(`${document.URL}.git`));
 
