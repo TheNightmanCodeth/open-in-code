@@ -1,7 +1,17 @@
 (() => {
-    let ghCodeDropdown = getDropUL();
-    ghCodeDropdown.appendChild(openInCodeElement(`${document.URL}.git`));
+    mutationObserver = window.MutationObserver || window.WebKitMutationObserver;
+    var observer = new MutationObserver(function(mutations, observer) {
+        let ghCodeDropdown = getDropUL();
+        if (ghCodeDropdown != undefined) {
+            ghCodeDropdown.appendChild(openInCodeElement(`${document.URL}.git`));
+        }
+    })
 
+    observer.observe(document, {
+        subtree: true,
+        attributes: true
+    });
+        
     function openInCodeElement(repo) {
         // If the LI is already here, return
         if (document.getElementById("openincode") != null) return;
