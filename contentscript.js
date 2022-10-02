@@ -1,13 +1,13 @@
 (() => {
-    if (window.hasRunContentScriptOnce === true) return;
-    window.hasRunContentScriptOnce = true;
-    
     let ghCodeDropdown = getDropUL();
     ghCodeDropdown.appendChild(openInCodeElement(`${document.URL}.git`));
 
     function openInCodeElement(repo) {
+        // If the LI is already here, return
+        if (document.getElementById("openincode") != null) return;
         // List item
         const openInCodeLI = document.createElement("li");
+        openInCodeLI.id = "openincode";
         openInCodeLI.classList.add(...["Box-row", "Box-row--hover-gray", "p-3", "mt-0"]);
         // List child element / link
         const openInCodeA = document.createElement("a");
