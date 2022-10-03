@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="460" src="https://user-images.githubusercontent.com/6336819/193483507-8327e8cb-6f83-4758-9a2e-67ad28e943af.png">
+</p>
+
 # Open in Visual Studio Code
 
 A browser extension that adds an "Open in Visual Studio Code" option to GitHub repos.
