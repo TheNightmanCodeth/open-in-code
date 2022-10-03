@@ -6,7 +6,7 @@
 
 A browser extension that adds an "Open in Visual Studio Code" option to GitHub repos.
 
-This extension is by no way endorsed by Microsoft or the Visual Studio Code team. I'm not even sure they'd be okay with me publishing this if they knew about it. Please don't bring any issues with this extension up in any Visual Studio Code support forums of any kind. Any issues you run into with this extension should be brought up in the issues section of this repository and nowhere else. Please don't get me in trouble ❤️.
+This extension is in no way endorsed by Microsoft or the Visual Studio Code team. I'm not even sure they'd be okay with me publishing this if they knew about it. Please don't bring any issues with this extension up in any Visual Studio Code support forums of any kind. Any issues you run into with this extension should be brought up in the issues section of this repository and nowhere else. Please don't get me in trouble ❤️.
 
 ## Installing
 
