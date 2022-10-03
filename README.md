@@ -50,6 +50,13 @@ Pull requests and issues are always welcome. If you run into a bug, open an issu
 
 ## Changelog
 
+### 1.0.2
+- Fixes bug that caused users to need to refresh page to see entries in modal
+- First Safari release
+
+### 1.0.1
+- Fix multiple "Open in..." items being added to modal
+
 ### 1.0.0
 - Initial release 🎉
 
