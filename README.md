@@ -10,7 +10,7 @@ This extension is by no way endorsed by Microsoft or the Visual Studio Code team
 
 **Chrome**: Download the latest release [here](https://github.com/TheNightmanCodeth/open-in-code/releases/latest)
 
-**Safari**: Hang tight 🫡
+**Safari**: Download the latest release [here](https://github.com/TheNightmanCodeth/open-in-code/releases/latest)
 
 ## Building & Installing From Source
 
